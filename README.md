@@ -27,20 +27,6 @@ Ensure you have Python installed along with the necessary dependencies:
 pip install opencv-python numpy
 ```
 
-### Running the Project
-1. Place the image file in the project directory.
-2. Run the encryption script to hide a secret message:
-   ```sh
-   python encrypt.py
-   ```
-3. Enter your secret message and a passcode.
-4. The encrypted image will be saved.
-5. Run the decryption script to reveal the hidden message:
-   ```sh
-   python decrypt.py
-   ```
-6. Enter the correct passcode to retrieve the message.
-
 ## Conclusion
 This project demonstrates the power of steganography for secure communication. By embedding data into images, it provides an effective way to conceal sensitive information while maintaining confidentiality. This technique can be extended for secure data transmission, watermarking, and anti-tampering measures.
 
